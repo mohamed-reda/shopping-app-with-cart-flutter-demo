@@ -3,9 +3,9 @@
 
 
 ### Features
-    - Item add to favourite
-    - Add Item in cart list
-    - Remove Item from cart list
+    - Add to favourite
+    - Add to cart
+    - Remove from cart
 
 ### Plugin
 1. Scope Model      : https://pub.dartlang.org/packages/scoped_model
