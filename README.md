@@ -20,9 +20,13 @@
 3. BoxDecoration - For boxshadow & rounded Image
 4. Rating Star
 
-### Preview
+## Preview
 
 [<img src="http://demo.hupp.in/hupp-files/demo1.gif" width="270" height="480" alt="Brand-first shopping design" align="left">](http://demo.hupp.in/hupp-files/demo1.gif)
-[<img src="http://demo.hupp.in/hupp-files/demo1.gif" width="270" height="480" alt="Brand-first shopping design" align="left">](http://demo.hupp.in/hupp-files/demo1.gif)
-<br/>
-###### created by : test@hupp.in
+    [<img src="http://demo.hupp.in/hupp-files/demo1.gif" width="270" height="480" alt="Brand-first shopping design" align="left">](http://demo.hupp.in/hupp-files/demo1.gif)
+    [<img src="http://demo.hupp.in/hupp-files/demo1.gif" width="270" height="480" alt="Brand-first shopping design" align="left">](http://demo.hupp.in/hupp-files/demo1.gif)
+
+<br/><br/>
+
+
+created by : test@hupp.in
