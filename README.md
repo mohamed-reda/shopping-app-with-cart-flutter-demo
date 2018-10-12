@@ -11,7 +11,7 @@
 1. Scope Model      : https://pub.dartlang.org/packages/scoped_model
 2. Path Provider    : https://pub.dartlang.org/packages/path_provider
 3. Sqflite          : https://pub.dartlang.org/packages/sqflite
-4. Rating Start     : https://pub.dartlang.org/packages/flutter_rating
+4. Rating Star     : https://pub.dartlang.org/packages/flutter_rating
 5. LocalStorage     : https://pub.dartlang.org/packages/localstorage
 
 ### Widgets
