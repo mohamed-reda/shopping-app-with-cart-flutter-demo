@@ -6,7 +6,7 @@
     - Add to favourite
     - Add to cart
     - Remove from cart
-    - WANT TO SEE NEW FEATURES ? CREATE AN ISSUE WITH LABEL TAG ON IT AND WE'LL WORK ON IT IN OUR NEXT CODING SPRINT ON THIS PROJECT !!
+    - WANT TO SEE NEW FEATURES ? CREATE AN ISSUE WITH LABEL "FEATURE" TAG ON IT AND WE'LL WORK ON IT IN OUR NEXT CODING SPRINT ON THIS PROJECT !!
 ### Plugin
 1. Scope Model      : https://pub.dartlang.org/packages/scoped_model
 2. Path Provider    : https://pub.dartlang.org/packages/path_provider
