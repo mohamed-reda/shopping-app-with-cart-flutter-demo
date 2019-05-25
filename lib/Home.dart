@@ -6,8 +6,10 @@ import 'package:flutter_rating/flutter_rating.dart';
 import "Details.dart";
 
 class Home extends StatefulWidget{
-
+  AppModel appModel;
   static final String route = "Home-route";
+
+  Home({this.appModel});
 
   @override
   State<StatefulWidget> createState() {
