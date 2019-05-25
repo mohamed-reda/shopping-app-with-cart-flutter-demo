@@ -90,12 +90,12 @@ class AppModel extends Model {
   final LocalStorage storage = new LocalStorage('app_data');
 
   AppModel() {
-    print("Called APP MODEL");
     // Create DB Instance & Create Table
     createDB();
   }
 
   deleteDB() async {
+
     Directory documentsDirectory = await getApplicationDocumentsDirectory();
     String path = join(documentsDirectory.path, 'cart.db');
 
@@ -103,11 +103,10 @@ class AppModel extends Model {
     if (storage.getItem("isFirst") != null) {
       await storage.deleteItem("isFirst");
     }
-    print("called DELTE");
   }
 
   createDB() async {
-    print("Called Create DB");
+
     try {
       Directory documentsDirectory = await getApplicationDocumentsDirectory();
       String path = join(documentsDirectory.path, 'cart.db');
@@ -132,7 +131,7 @@ class AppModel extends Model {
   }
 
   createTable() async {
-    print("Create Table called");
+
     try {
       var qry = "CREATE TABLE IF NOT EXISTS shopping ( "
           "id INTEGER PRIMARY KEY,"
@@ -191,7 +190,7 @@ class AppModel extends Model {
   }
 
   InsertInLocal() async {
-    print("INSERT IN LOCAL");
+
     try {
       await this._db.transaction((tx) async {
         for (var i = 0; i < data.length; i++) {
@@ -224,7 +223,7 @@ class AppModel extends Model {
   }
 
   InsertInCart(Data d) async {
-    print("Called ADD CART");
+    
     await this._db.transaction((tx) async {
       try {
         var qry =
